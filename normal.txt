@@ -1,0 +1,14 @@
+There should be 3 post api for creating these tables
+1 - post - /createOrders
+2 - post - /createInventory
+3 - post -  /createCustomer
+There should be 3 get api for fetching all data
+1 - get - /orders
+2 - get - /inventory
+3 - get - /customerDetails
+4 - get - /inventory/inventoryType
+Api for updating the available quantity
+1 - get - /itemName/availableQuantity
+If available quantity is zero, it should show this message
+ITEM IS OUT OF STOCK
+
